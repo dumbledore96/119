@@ -2,69 +2,33 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>119網站</title>
-        <link rel="icon" type="image/x-icon" href="119.png">
-        <style>
-            *{
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            header{
-                background-color: darkblue;
-                padding: 30px;
-                color: white;
-                font-size :50px;
-                text-align: center;
-            }
-            aside{
-                background-color:skyblue;
-                float: left;
-                width: 10%;
-                height: 2000px;
-            }
-            aside ul {
-                list-style-type: none;
-                padding: 0;
-            }
-            section::after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-            
-            
-            footer {
-                background-color: darkslateblue;
-                padding: 10px;
-                text-align: center;
-                color: white;
-            }
-            body{
-                background-color: white;
-            }
-            table{
-                background-color: white;
-            }
-        </style>
+        <link rel="icon" href="119.jpg">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>110th彰化高中實驗壹壹玖</header>
-        <aside>
-            <ul>
-                <li><a href="https://chsh119.w3spaces.com/">新聞專區</a></li>
-                <br>
-                <li><a href="classmate/1.html">  何鄗為</a></li>
-            </ul>
-        </aside>
-
-        <section>
-            <br>
-            <a>&emsp;</a>
-            <img src="class-1.jpg" style="width: 80%;">
-            <br>
-            <a>&emsp;</a>
-            <img src="class-2.jpg" style="width: 80%;">
-        </section>
+        <header>110th彰化高中實驗119</header>
+        <ul>
+            <li><a class="active" href="index.html">首頁</a></li>
+            <li><a href="news.html">新聞專區</a></li>
+            <li><a href="classmate.html">119的成員</a></li>
+            <li><a href="https://tsj.tw">精選遊戲</a></li>
+            <li style="float: right;"><a href="https://www.instagram.com/chsh_chsh119_110th/" style="padding: 15px 16px;">IG</a></li>
+        </ul>
+        <div>
+            
+            <section>
+                <article class="main">
+                    
+                    <img src="class-1.jpg" style="width: 98%; margin: 10px;">
+                    <img src="class-2.jpg" style="width: 98%; margin: 10px;">
+                    <img src="class-3.JPG" style="width: 98%; margin: 10px;">
+                </article>
+            </section>
+            
+            <footer>power by 119 program team</footer>
+        </div>
         
-        <footer>power by 119 program team</footer>
     </body>
 </html>
